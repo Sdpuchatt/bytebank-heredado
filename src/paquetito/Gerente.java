@@ -3,6 +3,10 @@ package paquetito;
 public class Gerente extends Funcionario{
 	private int contrasena;
 	
+	public Gerente() {
+		super();
+	}
+	
 	public Gerente(String nombre, String documento, double salario) {
 		super(nombre,documento,salario);
 	}

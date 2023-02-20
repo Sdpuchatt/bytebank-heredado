@@ -7,5 +7,9 @@ public class Main {
 		
 		System.out.println(funcionario.getBonificacion());
 		System.out.println(gerente.getBonificacion());
+		
+		gerente.setContrasena(1234);
+		System.out.println(gerente.autenticar(1234));
+		Gerente gerente2 = new Gerente();
 	}
 }
